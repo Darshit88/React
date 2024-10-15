@@ -9,6 +9,7 @@ const firebaseConfig = {
   measurementId: "G-LY7KBFPL1Q",
   db : "https://reactproject-a3507-default-rtdb.firebaseio.com/"
 };
-
+ // apiKey: "AIzaSyBOqiGm-A0RJkMOPzXcRg1tsSkaQvWJL-w",
+  
 
 export const app = initializeApp(firebaseConfig);
