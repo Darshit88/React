@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { app } from "./firebase";
-import "./style.css"
+import "./style.css";
 import { addDoc, collection, getFirestore } from "firebase/firestore";
 
 const firestore = getFirestore(app);
@@ -20,7 +20,7 @@ export default function Firestore() {
         pincode: Number(pincode),
       });
       console.log("Document written with ID: ", docRef.id);
-      setCityId(docRef.id); 
+      setCityId(docRef.id);
       setCity("");
       setPincode("");
     } catch (error) {
@@ -64,7 +64,8 @@ export default function Firestore() {
       />
       <br />
       <button onClick={AddData}>Add City</button>
-<br /><br />
+      <br />
+      <br />
       <h3 className="mt-4">Add Population</h3>
       <input
         type="number"
@@ -79,7 +80,6 @@ export default function Firestore() {
 }
 
 // STATIC DATA
-
 
 // import { app } from "./firebase"
 // import { addDoc, collection, getFirestore } from "firebase/firestore"
