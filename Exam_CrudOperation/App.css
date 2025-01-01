@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #563d7c; 
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+
+.ForForms {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.ForHeading {
+  text-align: center;
+  color: #563d7c;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.ForDisFlex {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #563d7c;
+  box-shadow: 0 0 5px rgba(86, 61, 124, 0.5);
+}
+
+button {
+  background-color: #563d7c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #452c60;
+}
+
+table {
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #563d7c;
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+td button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+td button:hover {
+  background-color: #0056b3;
+}
+
+.sidebar {
+  background-color: #563d7c;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  width: 250px;
+}
+
+.SideH1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.SideUl {
+  padding: 0;
+}
+
+.ForSideLi {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.ForSideLi:hover {
+  color: #ffdd57;
+}
+
+.ForBTN2 {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+}
+
+.SameBtn {
+    margin: 0px 0px 0px 30px;
+}
+.ForBTN2:hover {
+  background-color: #218838;
+}
+
+.not_found {
+  margin: 50px;
+  color: red;
+  font-size: 26px;
+}
