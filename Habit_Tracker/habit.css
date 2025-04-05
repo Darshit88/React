@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(135deg, #e3b1d4, #2e356f); 
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.habit-tracker-container {
+  width: 900px;  
+  min-height: 500px; 
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 
+              -5px -5px 15px rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: height 0.3s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #2e356f; 
+}
+
+.habit-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  outline: none;
+  font-size: 16px;
+}
+
+.good-button {
+  background: #4CAF50; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+    margin-right: 250px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.good-button:hover {
+  background: #3e9142df;
+}
+
+.bad-button {
+  background: #f25728; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bad-button:hover {
+  background: #E64A19;
+}
+
+.habit-list {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+
+.habit-section {
+  flex: 1;
+  width: 100%;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.1), 
+              inset -3px -3px 5px rgba(255, 255, 255, 0.5);
+  height: auto; 
+  min-height: 100px;
+}
+
+
+.habit-section h2 {
+  text-align: center;
+  color: #ff4b5c;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+.habit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+
+.delete-button {
+  background: #c2403eea;
+  border: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-button:hover {
+  background: #c05151a6;
+}
+
+
+.check-icon {
+  background: #4CAF50; 
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}
