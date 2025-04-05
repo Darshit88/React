@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.BlogWrapper {
+  width: 100%;
+}
+
+.blogTitle {
+  padding: 40px;
+  margin-left: 50px;
+}
+
+.BlogWrapper .blogTitle .titleDetail {
+  display: flex;
+}
+
+.BlogWrapper .blogTitle .titleDetail img {
+  height: 60px;
+}
+
+.BlogWrapper .blogTitle .titleDetail h2 {
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 20px;
+  font-size: 34px;
+}
+
+.BlogWrapper .blogTitle .titleDetail h2 img{
+  width: 230px;
+  height: 20px;
+}
+
+.drpdwn {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.drpdwn .tab_ {
+  background: #3bb77e;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.drpdwn .tab_ .btn_ {
+  color: #d8f1e5;
+  font-size: 16px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #3bb77e;
+  border: 1px solid #3bb77e;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 10px 0;
+  list-style: none;
+  z-index: 10;
+}
+
+.dropdownMenu li {
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  background: #d8f1e5;
+  transition: background 0.2s;
+}
+
+.dropdownMenu .drop {
+  width: 100%;
+  background: #bce3c9;
+  color: #000;
+}
+
+.dropdownMenu .drop:hover {
+  background: #3bb77e;
+}
+
+.BlogWrapper .recipis {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.BlogWrapper .recipis .CardRacipe {
+  text-align: center;
+  padding: 10px;
+}
+
+.BlogWrapper .recipis .CardRacipe img {
+  width: 380px;
+  height: 330px;
+  border-radius: 20px;
+}
+
+.BlogWrapper .recipis .CardRacipe .CardDetail {
+  padding: 30px 20px;
+}
+
+.BlogWrapper .recipis .CardRacipe .CardDetail h5 {
+  color: #b0aeae;
+  opacity: 0.8;
+}
+
+.BlogWrapper .recipis .CardRacipe .CardDetail h2{
+    color: #000;opacity: 0.9;
+    font-size: 26px;
+}
+
+.BlogWrapper .recipis .CardRacipe .CardDetail p{
+    color: #7c7c7c;
+    opacity: 0.9;
+    font-size: 12px;
+}
+
+.BlogWrapper .recipis .CardRacipe .CardDetail .cardIcon {
+  width: 8px;
+  height: 8px;
+  color: #3bb77e;
+  margin: 0px 6px;
+}
+
+.NextPage {
+  text-align: center;
+  margin: auto;
+}
+
+.paginationInfo{
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  display: flex;
+  margin: auto;
+}
+
+.paginationInfo .NextPage{
+  margin: auto;
+/* text-align: center; */
+}
+
+.TeamWrapper{
+  width: 100%;
+  height: 650px;
+
+}
+
+.TeamWrapper .privde {
+  text-align: center;
+}
+
+.TeamWrapper .privde h3 {
+  font-size: 40px;
+  margin: 30px 0px 0px 0px;
+  font-weight: 600;
+}
+
+.TeamWrapper .privde img{
+  width: 140px;
+}
+
+.TeamWrapper .OurTeam{
+  width: 100%;
+  height: auto;
+    justify-content: space-evenly;
+  padding: 20px 90px;
+  text-align: start;
+}
+
+.TeamWrapper .OurTeam .ExpertTeam{
+  margin-top: 25px;
+}
+
+.TeamWrapper .OurTeam .ExpertTeam h4{
+  font-size: 20px;
+  color: #3bb77e;
+}
+
+.TeamWrapper .OurTeam .ExpertTeam h2{
+  font-size: 40px;
+  color: #2d2d2d;
+}
+
+.TeamWrapper .OurTeam .ExpertTeam p{
+  font-size: 16px;
+  color: #7c7c7c;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.TeamWrapper .OurTeam .ExpertTeam button{
+  font-size: 18px;
+  background-color: #c2c2c2;
+  color: #3bb77e;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.TeamWrapper .OurTeam .ExpertTeam button:hover{
+  color: #2d2d2d;
+  background-color: #e36a00;
+}
+
+.TeamWrapper .TeamMember {
+  position: relative;
+}
+
+.TeamWrapper .TeamMember img{
+  width: 430px;
+  border-radius: 30px;
+  height: 460px;
+}
+
+.TeamWrapper .TeamMember .memberInfo{
+  background-color: #ffffffcf;
+  width: 330px;
+  height: 160px;
+  text-align: center;
+  border-radius: 20px;
+  transition: All 0.2s ease-in-out;
+  position: absolute;
+  /* bottom: 20px; */
+  top: 380px;
+  left: 16%;
+  padding: 20px;
+}
+
+.TeamWrapper .TeamMember .memberInfo h3{
+  font-size: 30px;
+  color: #2d2d2d;
+}
+
+.TeamWrapper .TeamMember .memberInfo p{
+  font-size: 18px;
+  color: #777777;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.TeamWrapper .TeamMember .memberInfo .MemberSocialInfo{
+  width: 140px;
+  justify-content: space-evenly;
+  text-align: center;
+  /* padding: 20px; */
+  margin: auto;
+  /* align-items: center; */
+}
+
+.TeamWrapper .TeamMember .memberInfo .MemberSocialInfo .icon{
+ margin-right: 10px;
+  gap: 16px;
+  text-align: center;
+} 
+
+.TeamWrapper .TeamMember .memberInfo:hover{
+  top: 350px;
+
+}

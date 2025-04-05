@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contectWrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.contectWrapper .contectDetail {
+  padding: 40px 0px 0px 80px;
+}
+
+.contectWrapper .contectDetail h3 {
+  color: #3eb67e;
+  font-size: 30px;
+}
+
+.contectWrapper .contectDetail .contectinfo h2 {
+  color: #000;
+  font-size: 50px;
+}
+
+.contectWrapper .contectDetail .contectinfo p {
+  color: #565656;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.contectWrapper .visit {
+  padding: 100px 0px 0px 60px;
+  /* margin-left: 40px; */
+  /* text-align: center; */
+}
+
+.contectWrapper .visitInfo h3 {
+  color: #000;
+  font-size: 30px;
+}
+
+.contectWrapper .visitInfo p {
+  color: #565656;
+  font-size: 16px;
+}
+
+.contectWrapper .visit .visitInfo .Billinginfo {
+  padding-top: 20px;
+  color: #3eb67e;
+}
+
+.Map {
+  width: 100%;
+  height: 400px;
+  margin: 40px 0px;
+  padding: 10px;
+}
+
+.Map .GoogleMap {
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.location {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+}
+
+.location .office {
+  padding: 10px;
+  text-align: center;
+}
+
+.location .office h3 {
+  font-size: 30px;
+  color: #3eb67e;
+  font-weight: 600;
+}
+
+.location .office p {
+  font-size: 16px;
+  color: #565656;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.location .office p span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.location .office button {
+  background-color: #3eb67e;
+  width: 130px;
+  padding: 10px;
+  border: none;
+  color: aliceblue;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.location .office button:hover {
+  background-color: #05a259;
+  color: azure;
+}

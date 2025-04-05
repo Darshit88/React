@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aboutSection .MainImg {
+  width: 650px;
+  height: 750px;
+  margin-left: 150px;
+  border-radius: 20px;
+}
+
+.aboutSection {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.welcome {
+  padding: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+  max-width: 600px;
+}
+
+.welcome h2 {
+  font-size: 28px;
+  font-weight: 600;
+  opacity: 0.6;
+  color: #3bb77e;
+  transition: all 0.2s ease-in-out;
+}
+
+.welcome h2:hover {
+  color: #696969;
+}
+
+.about .aboutSection .welcome h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.about .aboutSection .welcome p {
+  padding-top: 10px;
+  opacity: 0.8;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.slider {
+  width: 700px !important;
+  height: 400px;
+}
+
+.provideSection .privde {
+  text-align: center;
+}
+
+.provideSection .privde h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.cardData {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cardInfo {
+  width: 430px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #3bb77e;
+}
+
+.cardimg {
+  width: 100px;
+  height: 140px;
+}
+
+.cardInfo button {
+  background-color: #3bb77e;
+}
+
+.cardInfo button:hover {
+  background-color: #48d392;
+}
+
+.performance {
+  padding: 75px 80px;
+  margin-left: 60px;
+}
+
+.performance img {
+  height: 500px;
+  margin-left: 80px;
+}
+
+.performanceInfo {
+  width: 700px;
+  margin: 120px 0px 0px 30px;
+}
+
+.performanceInfo h5 {
+  font-size: 28px;
+  font-weight: 600;
+  opacity: 0.6;
+  color: #3bb77e;
+  transition: all 0.2s ease-in-out;
+}
+
+.performanceInfo h5:hover {
+  color: #696969;
+}
+
+.performanceInfo h2 {
+  font-size: 50px;
+  color: rgb(59, 59, 59);
+}
+
+.performanceInfo p {
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.8;
+  padding-top: 20px;
+}
+
+.ourInfo {
+  text-align: center;
+  padding: 0px 120px;
+}
+
+.ourInfo .history {
+  padding: 20px;
+}
+
+.ourInfo .history h3 {
+  font-size: 40px;
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.ourInfo .history p {
+  font-size: 18px;
+  opacity: 0.6;
+  padding-top: 10px;
+}
+
+.count {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.counter-wrapper {
+  background-color: #00c76a5e;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-image: url("../../assets/images/banner-10.png");
+  background-position: center center;
+  position: relative;
+}
+
+.counter-wrapper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.counter-inner {
+  position: relative;
+  z-index: 2;
+}
+
+.count-icon {
+  font-size: 48px;
+}
+
+.text-white {
+  color: white;
+}
